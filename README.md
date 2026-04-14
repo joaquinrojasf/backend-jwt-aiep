@@ -34,7 +34,8 @@ backend-jwt-aiep/
 │── .gitignore
 │── README.md
 │── package.json
+│── package-lock.json
 
 ## Integrantes
-- Joaquin Rojas
 - Boris Fernandez
+- Joaquin Rojas
