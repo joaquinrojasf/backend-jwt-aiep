@@ -27,9 +27,9 @@ router.post('/login', (req, res) => {
 
   if (!user) {
     return res.status(401).json({
-      message: 'Credenciales incorrectas. No autorizado.'
-    });
-  }
+    message: 'Credenciales incorrectas. No autorizado.'
+  });
+}
 
   const token = jwt.sign(
     { username: user.username },
@@ -63,5 +63,6 @@ router.post('/logout', (req, res) => {
     message: 'Sesión cerrada correctamente'
   });
 });
+
 
 module.exports = router;
