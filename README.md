@@ -37,7 +37,6 @@ backend-jwt-aiep/
 │── package-lock.json
 
 ## Actualizacion
-```text
 Se realizaron mejoras en la documentación del proyecto, revisión del middleware y organización de evidencias.
 
 ## Integrantes
