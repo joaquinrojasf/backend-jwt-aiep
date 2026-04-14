@@ -4,9 +4,11 @@ function verifyToken(req, res, next) {
   const token = req.cookies.token;
 
   if (!token) {
-    return res.status(401).json({
-      message: 'No autorizado. Token no encontrado.'
-    });
+   return res.status(401).json({
+    error: 'Token requerido',
+    message: 'No se encontró un token de autenticación válido.',
+    code: 'AUTH_TOKEN_MISSING'
+  });
   }
 
   try {
