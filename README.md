@@ -36,6 +36,10 @@ backend-jwt-aiep/
 │── package.json
 │── package-lock.json
 
+## Actualizacion
+```text
+Se realizaron mejoras en la documentación del proyecto, revisión del middleware y organización de evidencias.
+
 ## Integrantes
 - Boris Fernandez
 - Joaquin Rojas
